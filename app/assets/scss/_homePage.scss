@@ -54,6 +54,10 @@
     @include media(784px) {
       margin-bottom: 23px;
     }
+
+    @include media(363px) {
+        font-size: 46px;
+    }
   }
 
   &__desc {
