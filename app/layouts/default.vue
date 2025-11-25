@@ -403,6 +403,7 @@ const scrollTo = async (id) => {
 
   if (window.location.pathname !== "/") {
     await router.push({ path: "/", query: { scrollTo: id } });
+    closeAllModals();
     return;
   }
 
